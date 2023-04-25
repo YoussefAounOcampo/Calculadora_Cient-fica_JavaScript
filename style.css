@@ -1,0 +1,78 @@
+body {
+    background-color: #f2f2f2;
+}
+
+main {
+    margin: 5px auto 50px;
+    /* Valor para el margen superior, márgenes laterales */
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px #dddddd;
+    border-radius: 10px;
+}
+
+input {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+    background-color: #fafafa;
+    width: 330px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: none;
+}
+
+table {
+    display: inline-block;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.button {
+    width: 45px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: white;
+    color: #333333;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #cccccc;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.active {
+    background-color: #cccccc;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+
+.ac-button {
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+.operator-button {
+    background-color: #dddddd;
+    color: white;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #555555;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
